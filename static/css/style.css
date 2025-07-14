@@ -1,0 +1,149 @@
+body{
+    background-image: url("osho2.jpg");
+    background-size: 0vmax;
+    background-position: center;
+    border-width:10px;
+    border-color: chartreuse;
+    border-style: groove;
+    }
+@media(max-width:768px){
+    header,main,footer{
+     padding: 10px;
+    }
+}
+header{
+    padding: 5px 10px;
+    background-color: black;
+} 
+#Lo{
+  color: tomato;
+}
+.actions{
+    float: right;
+} 
+.actions button {
+    margin: 3px;
+    padding: 8px 15px;
+    font-size: 8px;
+    cursor: pointer;
+}
+
+.search{
+    display: flex;
+    justify-content: end;
+} 
+.menu-icon {
+  width: 30px;
+  cursor: pointer;
+}
+
+.bar {
+  width: 100%;
+  height: 4px;
+  background-color:white;
+  margin: 6px 0;
+}
+
+.menu {
+  display: none;
+  list-style: none;
+  padding: 0;
+}
+.menu li {
+  margin: 10px 0;
+}
+.btn {
+  display: inline-block;
+  padding: 3px 3px;
+  margin: 1px;
+  color: white;
+  border-radius: 3px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.whatsapp {
+  background-color: #25D366;
+}
+
+.facebook {
+  background-color: #3b5998;
+}
+
+.twitter {
+  background-color: #1DA1F2;
+}
+.btn i {
+  margin-right: 8px;
+}
+#H{
+    position: relative;
+    left: 30px;
+    color: blue;
+    text-align: center;
+    text-decoration: solid;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-style: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+} 
+main{
+    padding: 30px 60px;
+    background-color: cornsilk;
+    
+}
+#img1{
+    border-width: 1opx;
+    border-color: brown;
+    border-style: groove;
+
+}
+#right{
+    float: right;
+    border-width: 1opx;
+    border-color: brown;
+    border-style: groove;
+}
+.im{
+  display: flex;
+  gap: 100px;
+}
+#SATYA{
+  font-size: x-large;
+  font-weight: bold;
+  font-style: normal;
+  color: orangered;
+}
+#para{
+    color: blue;
+    text-align: center;
+}
+     
+
+.O{
+    position:relative;
+    top: 0vw;
+    left: 23vw;
+    color:red;
+    font-size: xx-large;
+    font-weight: bolder;
+
+    
+}
+.os{
+    position: relative;
+    top: 0vw;
+    left:28.5vw;
+    font-size: small;
+    font-weight: bolder;
+
+}
+a{
+    color: maroon;
+}
+footer{
+    padding: 20px;
+    background-color: brown;
+    text-align: center;
+
+}

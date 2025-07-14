@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='css/style1.css')}}">
+</head>
+<body>
+    <header>
+        <div id="H">
+        <h1><sup>OSHO</sup><sub>the man of words</sub></h1>
+        </div>
+    </header>
+    <form method="POST" id="form">
+    <h1>create a new account</h1><hr>
+    <label for="">username</label>
+    <input type="text" name="username" required><br><br>
+    <label for="">Password</label>
+    <input type="password"  name="password" required><br><br>
+    <button>submit</button>
+</form>
+</body>
+</html>

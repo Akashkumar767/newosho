@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OSHO</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+<body> 
+    <header>
+        <a id="Lo" href="{{url_for('login')}}">Login</a> <br>
+        <div class="share">
+        <a class="btn whatsapp" href="https://wa.me/?text=Check%20this%20out%20https://oshoworld.vercel.app/" target="_blank">
+         <i class="fab fa-whatsapp"></i> Share
+        </a>
+
+        <a class="btn facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://oshoworld.vercel.app/" target="_blank">
+        <i class="fab fa-facebook"></i> Share
+         </a>
+
+        <a class="btn twitter" href="https://twitter.com/intent/tweet?url=https://oshoworld.vercel.app/" target="_blank">
+        <i class="fab fa-twitter"></i> Tweet
+        </a>
+        </div>
+        <div id="H">
+        <sup>OSHO</sup><sub>the man of words</sub>
+        </div>
+        <div class="actions">
+        <button onclick="like()">👍 Like (<span id="like-count">0</span>)</button>
+        <button onclick="view()">👁 View (<span id="view-count">0</span>)</button>
+        <button onclick="subscribe()">🔔 Subscribe</button>
+        </div><br><br><br>
+        <div class="search">
+        <input type="text" id="search" placeholder="Search...">
+        <button onclick="search()">Search</button>
+        </div>
+        <div class="menu-icon" onclick="toggleMenu()">
+         <div class="bar"></div>
+         <div class="bar"></div>
+         <div class="bar"></div>
+         </div>
+
+        <ul class="menu" id="menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="{{url_for('about')}}">About</a></li>
+          <li><a href="{{url_for('contact')}}">Contact</a></li>
+        </ul>
+        
+    </header>
+    <main>
+        <div class="O">WELCOME TO OSHO'S WORLD </div>
+        <div class="os">
+        <a href="https://www.google.com/search?q=osho+pic+for+wallpaper&oq=&gs_|crp=EgZjaHJvbWUqCQgAEEUYOxjCAzIJCAAQRRg7GMIDMgkIARBFGDsYwgMyCQgCEEUYOxjCAzIJCAMQRRg7GMIDMgkIBBBFGDsYwgMyCQgFEEUYOxjCAzIJCAYQRRg7GMIDMgkIBxBFGDsYwgPSAQkyNDk2ajBqMTWoAgiwAgHxBe4">image</a> |
+        <a href="https://oshoworld.com/audio-hindi-home">audio</a> |
+        <a href="https://www.google.com/search?q=osho+video&sca_esv=ba4d85df8fad368c&ei=op9gaIy2FIiUseMP48fSwAw&ved=0ahUKEwiMj8vexZWOAxUISmwGHeOjFMgQ4dUDCBA">video</a> |
+        <a href="https://www.osho.com/osho-online-library/the-books">books</a> |
+        <a href="https://oshoworld.com/meditation-centers">Meditation Centers</a> |
+        <a href="{{url_for('quotes')}}">Osho Quotes</a>
+        </div>
+        <img id="img1"  src="{{url_for('static',filename='images/osho3.jpg')}}" height="400" width="350" alt="pic">
+        <img id="right" src="{{url_for('static',filename='images/os.jpg')}}" height="400" width="375" alt="pic">
+        <div>
+        <p id="para">
+            Rajneesh, also known as Acharya Rajneesh, Bhagwan Shree Rajneesh,<br>
+            and later as Osho, was an Indian godman, philosopher, <br>
+            mystic and founder of the Rajneesh movement. <br>
+            He was viewed as a controversial new religious <br> movement leader during his life. <br><br>
+            Born: 11 December 1931, Kuchwada <br>
+            Died: 19 January 1990 (age 58 years), Pune <br>
+            Full name: Chandra Mohan Jai <br>
+            Siblings: Shailendra Shekhar, Snehlata Jain, Neeru Singhai ·<br>
+            Education: Dr. Hari Singh Gour Vishwavidyalaya (1957),<br>
+            D. N. Jain College Jabalpur (1955)
+        </p>
+    </div>
+    </main>
+    <footer>
+        @osho2025 <br>
+        Akash:9561716020
+    </footer>
+    <script src="{{ url_for('static', filename='css/js/script.js')}}"></script>
+</body>
+</html>

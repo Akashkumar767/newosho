@@ -1,0 +1,36 @@
+header{
+    background-color: aquamarine;
+    padding: 10px 10px;
+    text-align: center;
+}
+#L{
+    color: brown;
+    text-align: left;
+
+}
+.F{
+    margin-left: 500px;
+}
+main{
+    background-image: url("../images/osho2.jpg");
+    background-size: contain;
+    padding: 210px 210px;
+    background-color: white;
+}
+footer{
+    padding: 10px 10px;
+    text-align: center;
+    background-color: aqua;
+}
+#form{
+    width: 300px;
+    margin-left:400px;
+    padding:20px;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-size: x-large;
+    font-weight: bolder;
+    text-align: center;
+    background-color: bisque;
+    
+}
